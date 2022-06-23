@@ -6,8 +6,9 @@ import pages.BasePage;
 
 public class Hooks extends BasePage {
 
-    @BeforeAll
+  /*  @BeforeAll
     public static void driverSetup() {
+        initPages();
         driver.get("https://opensource-demo.orangehrmlive.com/");
     }
 
@@ -15,5 +16,5 @@ public class Hooks extends BasePage {
     public static void tearDown() {
         driver.close();
         driver.quit();
-    }
+    }*/
 }
